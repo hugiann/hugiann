@@ -70,7 +70,7 @@ title: "Development"
 
 ## [VS Code](https://code.visualstudio.com/)
 
-> Currently the best, feature rich text editor. You can check out all of my VS Code settings [here](https://github.com/nezhivar/shared-configs/blob/main/vscode/extensions.json)
+> Currently the best, feature rich text editor. You can check out all of my VS Code settings [here](https://github.com/nezhivar/shared-configs/blob/main/packages/config/vscode/extensions.json)
 
 ### VSCode Theme
 
