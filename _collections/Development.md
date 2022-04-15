@@ -85,7 +85,6 @@ title: "Development"
 4. [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
 5. [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 6. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) 🚀
-7. Fig
 8. [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
 9. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 🚀
 10. [glean](https://marketplace.visualstudio.com/items?itemName=wix.glean)
