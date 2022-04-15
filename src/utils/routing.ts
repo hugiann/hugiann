@@ -1,20 +1,25 @@
-import settings from 'config/settings';
+import settings from "config/settings";
 
 const sanitizeHref = (href: string) => {
   // href ends in a forward slash
-  if (href[href.length - 1] === '/') {
+  if (href[href.length - 1] === "/") {
     return href.slice(0, href.length - 1);
   }
 
   return href;
 };
 export const determineHref = (href: string) => {
-  if (typeof window !== 'undefined' && window.localStorage) {
+  if (typeof window !== "undefined" && window.localStorage) {
     const hasSiteAddress = window?.location?.origin.includes(
-      settings.siteAddress,
+      settings.siteAddress
     );
 
-    return hasSiteAddress && href !== '/' ? `${sanitizeHref(href)}.html` : href;
+    // TODO: Implement decentralized site access through a subdomain
+    const decentralized = false;
+
+    return decentralized && hasSiteAddress && href !== "/"
+      ? `${sanitizeHref(href)}.html`
+      : href;
   }
 
   return href;
