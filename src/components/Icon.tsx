@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useTheme } from "next-themes";
 
 interface IIcon {
-  name: string | JSX.Element;
+  name: string;
   className?: string;
 }
 
@@ -13,7 +13,7 @@ interface IconData {
   height?: number;
 }
 
-const getIcon = async (name, setIcon) => {
+const getIcon = async (name: string, setIcon: Function) => {
   const importedIcon = await import(`../../public/icons/${name}.svg`);
 
   setIcon(importedIcon.default);

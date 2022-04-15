@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -12,12 +10,18 @@ interface IHeader {
   title?: string;
 }
 
-export const Header = ({ title }: IHeader) => {
-  const router = useRouter();
+interface IRouter {
+  pathname: string;
+  asPath: string;
+}
 
-  const viewingBase = router.pathname.match(/[a-z]*(\.html|$)/gm)?.length > 1;
+export const Header = ({ title }: IHeader) => {
+  const router: IRouter = useRouter();
+
+  const viewingBase =
+    (router?.pathname?.match(/[a-z]*(\.html|$)/gm) || [])?.length > 1;
   const viewingSubPath = router.pathname.match(/[a-z]*\/\[[a-z]*\]/gm);
-  const url = router.asPath.includes("journal") ? "/journal" : "/collection";
+  const url = router?.asPath.includes("journal") ? "/journal" : "/collection";
 
   const [opacityValues, setOpacity] = useState({
     text: -1,
@@ -28,7 +32,7 @@ export const Header = ({ title }: IHeader) => {
     if (title) {
       const element = document.getElementById("content");
 
-      element.addEventListener("scroll", () => {
+      element?.addEventListener("scroll", () => {
         setOpacity({
           text: element.scrollTop / 80,
           background:
@@ -38,7 +42,7 @@ export const Header = ({ title }: IHeader) => {
         });
       });
     }
-  }, [setOpacity]);
+  }, [setOpacity, title]);
 
   return (
     <div

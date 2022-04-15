@@ -32,7 +32,13 @@ const CollectionItem = ({ frontmatter, body, ...rest }: IPost) => {
   );
 };
 
-export async function getStaticProps({ params }) {
+interface PageParams {
+  params: {
+    collection: string;
+  };
+}
+
+export async function getStaticProps({ params }: PageParams) {
   const postsData = await getAllCollections([
     "slug",
     "title",

@@ -28,7 +28,13 @@ const Item = ({ frontmatter, body, ...rest }: IPost) => {
   );
 };
 
-export async function getStaticProps({ params }) {
+interface PageParams {
+  params: {
+    post: string;
+  };
+}
+
+export async function getStaticProps({ params }: PageParams) {
   const postsData = await getAllPosts(["slug", "title", "description", "date"]);
 
   const { frontmatter, body } = await getPostBySlug(params.post);
