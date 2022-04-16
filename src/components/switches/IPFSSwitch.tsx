@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
 
+import settings from "config/settings";
 import { determineIPFS } from "@/utils/routing";
 
 export const IPFSSwitch = () => {
@@ -12,7 +13,12 @@ export const IPFSSwitch = () => {
   return (
     <>
       {ipfsEnabled ? (
-        <button name="Turn off IPFS">
+        <button
+          name="Turn off IPFS"
+          onClick={() => {
+            window.location.hostname = settings.siteAddress;
+          }}
+        >
           <Image
             height="20"
             width="20"
@@ -21,7 +27,12 @@ export const IPFSSwitch = () => {
           />
         </button>
       ) : (
-        <button name="Turn on IPFS">
+        <button
+          name="Turn on IPFS"
+          onClick={() => {
+            window.location.hostname = settings.siteIPFSAddress;
+          }}
+        >
           <Image
             height="20"
             width="20"
