@@ -1,14 +1,13 @@
 import React, { Fragment } from "react";
 import Image from "next/image";
-
 import { useTheme } from "next-themes";
 
 export const ThemeSwitch = () => {
-  const { theme, setTheme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme();
 
   return (
     <>
-      {theme === "light" ? (
+      {resolvedTheme === "light" ? (
         <button name="Turn on the light" onClick={() => setTheme("dark")}>
           <Image
             height="20"

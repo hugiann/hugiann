@@ -4,7 +4,8 @@ import { useRouter } from "next/router";
 
 import { Icon } from "components/Icon";
 import { DrawerButton } from "components/DrawerButton";
-import { ThemeSwitch } from "./ThemeSwitch";
+import { ThemeSwitch } from "../switches/ThemeSwitch";
+import { IPFSSwitch } from "../switches/IPFSSwitch";
 
 interface IHeader {
   title?: string;
@@ -75,7 +76,10 @@ export const Header = ({ title }: IHeader) => {
               {title}
             </p>
           </span>
-          <ThemeSwitch />
+          <div className="w-16 flex justify-between">
+            <IPFSSwitch />
+            <ThemeSwitch />
+          </div>
         </div>
       </div>
     </div>

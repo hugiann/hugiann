@@ -8,16 +8,24 @@ const sanitizeHref = (href: string) => {
 
   return href;
 };
+
+export const determineIPFS = (href: string) => {
+  if (typeof window !== "undefined" && window.location.hostname) {
+    return window?.location?.hostname.includes(settings.siteIPFSAddress);
+  }
+
+  return false;
+};
+
 export const determineHref = (href: string) => {
   if (typeof window !== "undefined" && window.localStorage) {
     const hasSiteAddress = window?.location?.origin.includes(
       settings.siteAddress
     );
 
-    // TODO: Implement decentralized site access through a subdomain
-    const decentralized = false;
+    const ipfsEnabled = determineIPFS();
 
-    return decentralized && hasSiteAddress && href !== "/"
+    return ipfsEnabled && hasSiteAddress && href !== "/"
       ? `${sanitizeHref(href)}.html`
       : href;
   }

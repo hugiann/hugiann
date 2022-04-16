@@ -25,7 +25,8 @@ const settings: ISettings = {
   title: "Nezhivar",
   lang: "en",
   siteUrl: "http://localhost:3000", // Site domain. Do not include a trailing slash!
-  siteAddress: "nezhivar.vercel.app",
+  siteAddress: "nezhivar.com",
+  siteIPFSAddress: "ipfs.nezhivar.com",
   siteTitleMeta: "Nezhivar", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:
     "A site about my personal philosophy and thoughts on engineering",
