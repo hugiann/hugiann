@@ -3,6 +3,7 @@ interface ISettings {
   lang: string;
   siteUrl: string;
   siteAddress: string;
+  siteIPFSAddress: string;
   siteTitleMeta: string;
   siteDescriptionMeta: string;
   shareImageWidth: number;

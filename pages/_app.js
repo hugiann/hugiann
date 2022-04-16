@@ -3,14 +3,17 @@
 /* eslint-disable react/react-in-jsx-scope */
 import '@assets/main.css';
 import { ThemeProvider } from 'next-themes'
+import { HelmetProvider } from 'react-helmet-async';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute="class">
-      <div className="w-full min-h-screen">
-        <Component {...pageProps} />
-      </div>
-    </ThemeProvider>
+    <HelmetProvider> 
+      <ThemeProvider attribute="class">
+        <div className="w-full min-h-screen">
+          <Component {...pageProps} />
+        </div>
+      </ThemeProvider>
+    </HelmetProvider>
   );
 }
 

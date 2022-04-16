@@ -9,7 +9,7 @@ const sanitizeHref = (href: string) => {
   return href;
 };
 
-export const determineIPFS = (href: string) => {
+export const determineIPFS = () => {
   if (typeof window !== "undefined" && window.location.hostname) {
     return window?.location?.hostname.includes(settings.siteIPFSAddress);
   }

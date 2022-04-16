@@ -1,9 +1,12 @@
 import React, { Fragment } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { useTheme } from "next-themes";
+
 import { determineIPFS } from "@/utils/routing";
 
 export const IPFSSwitch = () => {
+  const { resolvedTheme } = useTheme();
   const ipfsEnabled = determineIPFS();
 
   return (
@@ -24,6 +27,7 @@ export const IPFSSwitch = () => {
             width="20"
             src="/icons/ipfs.svg"
             alt="ipfs disabled icon"
+            style={resolvedTheme === "dark" ? { filter: "invert(1)" } : {}}
           />
         </button>
       )}
