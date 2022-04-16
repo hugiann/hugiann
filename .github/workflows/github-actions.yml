@@ -1,4 +1,4 @@
-name: Nezhivar Site
+name: IPFS Deployment
 on: [push]
 jobs:
   Build:
