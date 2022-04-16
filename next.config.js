@@ -3,8 +3,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: "imgix",
-    path: "https://noop/",
+    loader: "custom"
   },
   devIndicators: {
     autoPrerender: false,

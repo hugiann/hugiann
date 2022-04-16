@@ -10,6 +10,7 @@ export const ThemeSwitch = () => {
       {resolvedTheme === "light" ? (
         <button name="Turn on the light" onClick={() => setTheme("dark")}>
           <Image
+            unoptimized
             height="20"
             width="20"
             src="/icons/darkmode.svg"
@@ -19,6 +20,7 @@ export const ThemeSwitch = () => {
       ) : (
         <button name="Turn off the light" onClick={() => setTheme("light")}>
           <Image
+            unoptimized
             height="20"
             width="20"
             src="/icons/lightmode.svg"

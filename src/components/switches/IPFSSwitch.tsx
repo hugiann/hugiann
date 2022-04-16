@@ -20,6 +20,7 @@ export const IPFSSwitch = () => {
           }}
         >
           <Image
+            unoptimized
             height="20"
             width="20"
             src="/icons/ipfs-enabled.svg"
@@ -34,6 +35,7 @@ export const IPFSSwitch = () => {
           }}
         >
           <Image
+            unoptimized
             height="20"
             width="20"
             src="/icons/ipfs.svg"

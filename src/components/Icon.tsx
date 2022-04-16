@@ -8,9 +8,10 @@ interface IIcon {
 }
 
 interface IconData {
-  src: string;
-  width?: number;
-  height?: number;
+  props: {
+    width: number;
+    height: number;
+  };
 }
 
 const getIcon = async (name: string, setIcon: Function) => {
@@ -22,18 +23,22 @@ const getIcon = async (name: string, setIcon: Function) => {
 export const Icon = ({ name }: IIcon): any => {
   const { theme } = useTheme();
   const [icon, setIcon] = useState<IconData>({
-    src: "",
+    props: {
+      width: 16,
+      height: 16,
+    },
   });
 
   useEffect(() => {
     getIcon(name, setIcon);
   }, [name]);
 
-  return icon?.src ? (
+  return icon?.props ? (
     <Image
-      src={icon.src}
-      width={icon?.width}
-      height={icon?.height}
+      unoptimized
+      src={`/icons/${name}.svg`}
+      width={icon?.props?.width}
+      height={icon?.props?.height}
       alt="icon"
       style={
         theme === "dark" ? { filter: "invert(1)" } : { filter: "invert(0)" }
