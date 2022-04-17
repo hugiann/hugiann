@@ -7,9 +7,9 @@ import { HelmetProvider } from 'react-helmet-async';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <HelmetProvider> 
+    <HelmetProvider>
       <ThemeProvider attribute="class">
-        <div className="w-full min-h-screen">
+        <div className="w-full min-h-screen bg-white">
           <Component {...pageProps} />
         </div>
       </ThemeProvider>

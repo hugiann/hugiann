@@ -1,50 +1,30 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React from "react";
 import Image from "next/image";
-import { useTheme } from "next-themes";
 
 interface IIcon {
   name: string;
   className?: string;
+  height?: number | string;
+  width?: number | string;
 }
 
 interface IconData {
+  mounted: boolean;
   props: {
     width: number;
     height: number;
   };
 }
 
-const getIcon = async (name: string, setIcon: Function) => {
-  const importedIcon = await import(`../../public/icons/${name}.svg`);
-
-  setIcon(importedIcon.default);
-};
-
-export const Icon = ({ name }: IIcon): any => {
-  const { theme } = useTheme();
-  const [icon, setIcon] = useState<IconData>({
-    props: {
-      width: 16,
-      height: 16,
-    },
-  });
-
-  useEffect(() => {
-    getIcon(name, setIcon);
-  }, [name]);
-
-  return icon?.props ? (
+export const Icon = ({ name, height = 16, width = 16 }: IIcon): any => {
+  return (
     <Image
       unoptimized
       src={`/icons/${name}.svg`}
-      width={icon?.props?.width}
-      height={icon?.props?.height}
+      width={height}
+      height={width}
       alt="icon"
-      style={
-        theme === "dark" ? { filter: "invert(1)" } : { filter: "invert(0)" }
-      }
+      className="invert-0 dark:invert"
     />
-  ) : (
-    <Fragment />
   );
 };

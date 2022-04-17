@@ -1,14 +1,19 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
 
 import settings from "config/settings";
 import { determineIPFS } from "@/utils/routing";
 
 export const IPFSSwitch = () => {
+  const [mounted, setMounted] = useState(false);
   const { resolvedTheme } = useTheme();
   const ipfsEnabled = determineIPFS();
+
+  // When mounted on client, now we can show the UI
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) return null;
 
   return (
     <>
@@ -33,6 +38,7 @@ export const IPFSSwitch = () => {
           onClick={() => {
             window.location.hostname = settings.siteIPFSAddress;
           }}
+          className="invert-0 dark:invert"
         >
           <Image
             unoptimized
@@ -40,7 +46,6 @@ export const IPFSSwitch = () => {
             width="20"
             src="/icons/ipfs.svg"
             alt="ipfs disabled icon"
-            style={resolvedTheme === "dark" ? { filter: "invert(1)" } : {}}
           />
         </button>
       )}

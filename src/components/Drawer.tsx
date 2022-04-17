@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import classNames from 'classnames';
+import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import classNames from "classnames";
 
-import settings from 'config/settings';
-import { Icon } from 'components/Icon';
-import { determineHref } from '@/utils/routing';
+import settings from "config/settings";
+import { Icon } from "components/Icon";
+import { determineHref } from "@/utils/routing";
 
 interface INavItem {
   title: string;
@@ -19,13 +19,13 @@ const NavItem = ({ title, href, active, icon, external }: INavItem) => (
   <li className="flex items-stretch space-x-1">
     <Link href={determineHref(href)}>
       <a
-        target={external ? '_blank' : '_self'}
+        target={external ? "_blank" : "_self"}
         className={classNames(
-          'flex flex-1 text-gray-700 items-center space-x-3 px-2 py-1.5 text-sm ÷font-medium rounded-md sm:dark:hover:text-gray-200 sm:hover:text-gray-900 sm:dark:hover:bg-gray-700 sm:hover:bg-gray-200 dark:text-white',
+          "flex flex-1 text-gray-700 items-center space-x-3 px-2 py-1.5 text-sm ÷font-medium rounded-md sm:dark:hover:text-gray-200 sm:hover:text-gray-900 sm:dark:hover:bg-gray-700 sm:hover:bg-gray-200 dark:text-white",
           {
-            'bg-gray-200 hover:bg-black hover:text-white dark:bg-gray-700 dark:hover:bg-gray-700 dark:hover:text-white':
+            "bg-gray-200 hover:bg-black hover:text-white dark:bg-gray-700 dark:hover:bg-gray-700 dark:hover:text-white":
               active,
-          },
+          }
         )}
       >
         <span className="flex items-center justify-center">
@@ -33,7 +33,7 @@ const NavItem = ({ title, href, active, icon, external }: INavItem) => (
         </span>
         <span className="flex items-center justify-center"></span>
         <span className="flex-1 text-gray-900 dark:text-gray-50">{title}</span>
-        {external && <Icon name="external" />}
+        {external && <Icon name="external" height="12" width="12" />}
       </a>
     </Link>
   </li>
@@ -49,7 +49,7 @@ export const Drawer = () => {
           key={idx}
           title={item.title}
           href={item.href}
-          active={`/${router?.asPath.split('/')[1]}` === item.href}
+          active={`/${router?.asPath.split("/")[1]}` === item.href}
           icon={item.icon}
         />
       ))}
