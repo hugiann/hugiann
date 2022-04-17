@@ -8,14 +8,6 @@ interface IIcon {
   width?: number | string;
 }
 
-interface IconData {
-  mounted: boolean;
-  props: {
-    width: number;
-    height: number;
-  };
-}
-
 export const Icon = ({ name, height = 16, width = 16 }: IIcon): any => {
   return (
     <Image

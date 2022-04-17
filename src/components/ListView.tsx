@@ -1,11 +1,11 @@
 /* eslint-disable react/forbid-prop-types */
-import React from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import classNames from 'classnames';
+import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import classNames from "classnames";
 
-import { DrawerButton } from 'components/DrawerButton';
-import { determineHref } from '@/utils/routing';
+import { DrawerButton } from "components/DrawerButton";
+import { determineHref } from "utils/routing";
 
 interface FrontMatter {
   title: string;
@@ -75,15 +75,15 @@ const ListView = ({ title, items }: IItemList) => {
   if (!items || !items.length) return <p>No items found</p>;
 
   const viewingBase =
-    router.asPath === '/journal' || router.asPath === '/collection';
+    router.asPath === "/journal" || router.asPath === "/collection";
 
   return (
     <div
       className={classNames(
-        'relative min-h-screen flex-none w-full bg-white border-r border-gray-150 md:w-80 lg:block xl:w-96 bg-gray-50 overflow-x-auto h-screen dark:bg-mui dark:border-gray-800',
+        "relative min-h-screen flex-none w-full bg-white border-r border-gray-150 md:w-80 lg:block xl:w-96 bg-gray-50 overflow-x-auto h-screen dark:bg-mui dark:border-gray-800",
         {
           hidden: !viewingBase,
-        },
+        }
       )}
     >
       <Title title={title} />

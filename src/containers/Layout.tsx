@@ -1,8 +1,8 @@
 import React from "react";
 
 import settings from "config/settings";
-import { MetaData } from "components/common/meta";
-import { Drawer } from "components/Drawer";
+import { MetaData } from "components/MetaData";
+import { Drawer } from "containers/Drawer";
 
 interface ILayout {
   children: React.ReactNode;

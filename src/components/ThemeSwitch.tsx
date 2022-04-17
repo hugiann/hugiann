@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
+import { Button } from "components/Button";
+
 export const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false);
   const { resolvedTheme, setTheme } = useTheme();
@@ -14,7 +16,7 @@ export const ThemeSwitch = () => {
   return (
     <>
       {resolvedTheme === "light" ? (
-        <button
+        <Button
           name="Turn off the light"
           onClick={() => setTheme("dark")}
           className="invert-0"
@@ -26,9 +28,9 @@ export const ThemeSwitch = () => {
             src="/icons/darkmode.svg"
             alt="dark mode icon"
           />
-        </button>
+        </Button>
       ) : (
-        <button
+        <Button
           name="Turn on the light"
           onClick={() => setTheme("light")}
           className="invert"
@@ -40,7 +42,7 @@ export const ThemeSwitch = () => {
             src="/icons/lightmode.svg"
             alt="light mode icon"
           />
-        </button>
+        </Button>
       )}
     </>
   );

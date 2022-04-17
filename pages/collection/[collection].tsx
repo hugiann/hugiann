@@ -6,8 +6,8 @@ import {
   getCollectionSlugs,
   getCollectionBySlug,
 } from "lib/api";
-import Layout from "components/Layout";
-import { Header } from "components/Header";
+import Layout from "containers/Layout";
+import { Header } from "containers/Header";
 import ListView from "components/ListView";
 import ContentItem from "components/ContentItem";
 

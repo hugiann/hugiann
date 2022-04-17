@@ -9,8 +9,7 @@ interface IMetaData {
   bodyClass?: object;
 }
 
-// Join us on our new journey · Spectrum Support
-const MetaData = ({ title, description, bodyClass }: IMetaData) => {
+export const MetaData = ({ title, description, bodyClass }: IMetaData) => {
   title = title || settings.siteTitleMeta || settings.title;
   description = description || settings.siteDescriptionMeta;
 
@@ -27,9 +26,3 @@ const MetaData = ({ title, description, bodyClass }: IMetaData) => {
     </Helmet>
   );
 };
-
-MetaData.defaultProps = {
-  data: {},
-};
-
-export default MetaData;

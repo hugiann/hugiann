@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 
 import { Icon } from "components/Icon";
 import { DrawerButton } from "components/DrawerButton";
-import { ThemeSwitch } from "../switches/ThemeSwitch";
-import { IPFSSwitch } from "../switches/IPFSSwitch";
+import { ThemeSwitch } from "components/ThemeSwitch";
+import { IPFSSwitch } from "components/IPFSSwitch";
 
 interface IHeader {
   title?: string;
