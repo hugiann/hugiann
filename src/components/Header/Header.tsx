@@ -49,7 +49,7 @@ export const Header = ({ title }: IHeader) => {
     <div
       style={{ opacity: opacityValues.background }}
       className={
-        "sticky top-0 z-40 h-14 w-auto backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-gray-900/10 dark:border-gray-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-mui"
+        "sticky top-0 z-40 h-14 w-auto backdrop-blur flex-none lg:z-50 lg:border-b lg:border-gray-900/10 dark:border-gray-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-mui"
       }
     >
       <div className="max-w-8xl mx-auto">

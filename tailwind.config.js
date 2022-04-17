@@ -1,5 +1,6 @@
 module.exports = {
   darkMode: 'class',
+  important: true,
   purge: ['./src/**/*.tsx'],
   future: {
     purgeLayersByDefault: true,
