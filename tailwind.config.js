@@ -1,14 +1,13 @@
 module.exports = {
   darkMode: 'class',
   important: true,
-  purge: ['./src/**/*.tsx'],
   future: {
     purgeLayersByDefault: true,
     applyComplexClasses: true,
   },
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}',
+    './src/**/*.tsx'
   ],
   theme: {
     extend: {
