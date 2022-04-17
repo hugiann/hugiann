@@ -37,7 +37,7 @@ const editDNSRecord = ({ args, content, logger }) => {
   return cf.dnsRecords
     .edit(CLOUDFLARE_ZONE_ID, CLOUDFLARE_DNS_ID, {
       type: 'TXT',
-      name: '_dnslink',
+      name: '_dnslink.ipfs',
       content: `dnslink=/ipfs/${content}`,
       ttl: 1,
     })
