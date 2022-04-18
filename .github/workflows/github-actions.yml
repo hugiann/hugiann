@@ -6,12 +6,23 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - run: npm install -g pnpm
-      - run: echo "🍏 This job's status is ${{ job.status }}."
-      # - run: npx lockfile-lint --path yarn.lock --allowed-hosts registry.yarnpkg.com --validate-https
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
+        with:
+          version: 6.32.3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "17"
+          cache: "pnpm"
       - run: pnpm install
+      - run: pnpm test
+    # steps:
+    #   - name: Check out repository code
+    #     uses: actions/checkout@v2
+    #   - run: npm install -g pnpm
+    #   - run: echo "🍏 This job's status is ${{ job.status }}."
+    #   # - run: npx lockfile-lint --path yarn.lock --allowed-hosts registry.yarnpkg.com --validate-https
+    #   - run: pnpm install
   Deploy:
     needs: Build
     runs-on: ubuntu-latest
