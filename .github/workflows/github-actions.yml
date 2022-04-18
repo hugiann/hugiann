@@ -31,7 +31,7 @@ jobs:
             ~/.pnpm-store
             ~/.pnpm-state
             ${{ github.workspace }}/.next/cache
-          key: test
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
       - name: Build deployment package
         run: pnpm build
       - name: Create static out folder
