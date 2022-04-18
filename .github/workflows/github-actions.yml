@@ -12,25 +12,26 @@ jobs:
       CLOUDFLARE_DNS_ID: ${{ secrets.CLOUDFLARE_DNS_ID }}
     steps:
       - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
-        with:
-          version: 6.32.3
+      # - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
+      #   with:
+      #     version: 6.32.3
       - uses: actions/setup-node@v3
         with:
-          node-version: "17"
-          cache: "pnpm"
-      - run: pnpm install
+          node-version: "16"
+          cache: "npm"
+      - run: npm run install
       # https://github.com/vercel/next.js/blob/canary/errors/no-cache.md#github-actions
       - uses: actions/cache@v2
         with:
+          # See here for caching with `yarn` https://github.com/actions/cache/blob/main/examples.md#node---yarn or you can leverage caching with actions/setup-node https://github.com/actions/setup-node
           path: |
-            ~/.pnpm
-            ${{ github.workspace }}/.next
+            ~/.npm
+            ${{ github.workspace }}/.next/cache
           # Generate a new cache whenever packages or source files change.
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
-      - run: pnpm build
-      - run: pnpm export
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+      - run: npm run build
+      - run: npm run export
       # - run: pnpm cli publish $PINATA_KEY $PINATA_SECRET_KEY $CLOUDFLARE_TOKEN_ID $CLOUDFLARE_ZONE_ID $CLOUDFLARE_DNS_ID
