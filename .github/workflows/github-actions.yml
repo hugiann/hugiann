@@ -20,4 +20,6 @@ jobs:
           node-version: "17"
           cache: "pnpm"
       - run: pnpm install
-      - run: pnpm build && pnpm export && pnpm cli publish $PINATA_KEY $PINATA_SECRET_KEY $CLOUDFLARE_TOKEN_ID $CLOUDFLARE_ZONE_ID $CLOUDFLARE_DNS_ID
+      - run: pnpm build
+      - run: pnpm export
+      - run: pnpm cli publish $PINATA_KEY $PINATA_SECRET_KEY $CLOUDFLARE_TOKEN_ID $CLOUDFLARE_ZONE_ID $CLOUDFLARE_DNS_ID
