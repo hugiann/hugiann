@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+> Note this project uses [Volta](https://volta.sh/) to help manage versions
+
 First, run the development server:
 
 ```bash
