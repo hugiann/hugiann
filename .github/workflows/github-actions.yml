@@ -1,10 +1,15 @@
 name: IPFS Deployment
 on: [push]
 jobs:
-  Build:
+  "Deployment":
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      PINATA_KEY: ${{ secrets.PINATA_KEY }}
+      PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_KEY }}
+      CLOUDFLARE_TOKEN_ID: ${{ secrets.CLOUDFLARE_TOKEN_ID }}
+      CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+      CLOUDFLARE_DNS_ID: ${{ secrets.CLOUDFLARE_DNS_ID }}
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
@@ -14,20 +19,5 @@ jobs:
         with:
           node-version: "17"
           cache: "pnpm"
-      - run: pnpm install
-  Deploy:
-    needs: Build
-    runs-on: ubuntu-latest
-    env:
-      PINATA_KEY: ${{ secrets.PINATA_KEY }}
-      PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_KEY }}
-      CLOUDFLARE_TOKEN_ID: ${{ secrets.CLOUDFLARE_TOKEN_ID }}
-      CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
-      CLOUDFLARE_DNS_ID: ${{ secrets.CLOUDFLARE_DNS_ID }}
-    steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - run: npm install -g pnpm
-      # - run: npx lockfile-lint --path yarn.lock --allowed-hosts registry.yarnpkg.com --validate-https
       - run: pnpm install
       - run: pnpm build && pnpm export && pnpm cli publish $PINATA_KEY $PINATA_SECRET_KEY $CLOUDFLARE_TOKEN_ID $CLOUDFLARE_ZONE_ID $CLOUDFLARE_DNS_ID
