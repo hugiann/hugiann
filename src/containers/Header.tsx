@@ -76,7 +76,7 @@ export const Header = ({ title }: IHeader) => {
               {title}
             </p>
           </span>
-          <div className="w-16 flex justify-between">
+          <div className="w-20 mr-16 flex justify-between">
             <IPFSSwitch />
             <ThemeSwitch />
           </div>
