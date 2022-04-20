@@ -8,7 +8,8 @@
     "export": "next export",
     "start": "next build && next start",
     "lint": "next lint",
-    "cli": "node ./tools/cli"
+    "cli": "node ./tools/cli",
+    "test": "jest"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.3.1",
@@ -35,6 +36,9 @@
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.1.5",
     "@pinata/sdk": "^1.1.25",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@types/jest": "^27.4.1",
     "@types/node": "17.0.23",
     "@types/react": "18.0.4",
     "@types/react-dom": "18.0.0",
@@ -47,7 +51,10 @@
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
     "eslint-config-prettier": "^8.5.0",
+    "jest": "^27.5.1",
     "number-to-words": "^1.2.4",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
     "typescript": "4.5.4"
   },
   "volta": {
