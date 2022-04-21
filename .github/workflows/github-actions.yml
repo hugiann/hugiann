@@ -1,5 +1,8 @@
 name: IPFS Deployment
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   deployment:
     runs-on: ubuntu-latest
