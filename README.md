@@ -7,9 +7,13 @@
 > 
 > ― Richard Feynman
 
+- 🌱 &nbsp;I’m currently learning Flutter, Go
+- 💬 &nbsp;Ask me about anything related to Javascript/Typescript/React
+- 👨‍💻 &nbsp;Read more about my thoughts, reflections, or recommendations at [nezhivar.com](https://www.nezhivar.com)
+ 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://stackoverflow.com/users/nezhivar" target="blank">
+  <a href="https://stackoverflow.com/users/18584757/nezhivar" target="blank">
     <img 
       align="center" 
       src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" 
@@ -146,3 +150,13 @@
     alt="nezhivar"
   />
 </p>
+
+### Activity
+
+ <img
+    height="180em" 
+    align="center"
+    src="https://metrics.lecoq.io/Nezhivar?template=classic&base.header=0&base.activity=0&base.repositories=0&base.metadata=0&activity=1&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&config.timezone=UTC"
+    alt="nezhivar"
+  />
+ 
