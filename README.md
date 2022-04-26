@@ -142,13 +142,13 @@
   <img src="/github-metrics.svg" align="right" />
  
   <img
-    height="180em" 
+    height="100em" 
     src="https://github-readme-stats.vercel.app/api/top-langs?username=nezhivar&show_icons=true&locale=en&layout=compact"
     alt="nezhivar"
   />
  
   <img
-    height="180em" 
+    height="100em" 
     src="https://github-readme-stats.vercel.app/api?username=nezhivar&show_icons=true&locale=en&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"
     alt="nezhivar"
   />
