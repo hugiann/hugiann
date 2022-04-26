@@ -151,7 +151,7 @@
 ## Activity
 <p> 
   <img  
-    width="450em" 
+    width="400em" 
     src="/github-metrics.svg" 
     align="right" 
   />
