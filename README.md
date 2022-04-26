@@ -16,6 +16,16 @@
  
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+  <a href="https://dev.to/nezhivar" target="blank">
+    <img 
+         align="center" 
+         src="https://cdn.iconscout.com/icon/free/png-256/dev-dot-to-3626951-3029359.png" 
+         alt="nezhivar" 
+         height="70" 
+         width="50" 
+     />
+  </a>
+  &nbsp;&nbsp;
   <a href="https://stackoverflow.com/users/18584757/nezhivar" target="blank">
     <img 
       align="center" 
@@ -25,6 +35,7 @@
       width="50" 
      />
   </a>
+  &nbsp;&nbsp;
   <a href="https://www.leetcode.com/nezhivar" target="blank">
     <img 
       align="center" 
@@ -139,16 +150,20 @@
 
 ## Activity
 <p> 
-  <img src="/github-metrics.svg" align="right" />
+  <img  
+    width="400em" 
+    src="/github-metrics.svg" 
+    align="right" 
+  />
  
   <img
-    height="160em" 
+    height="180em" 
     src="https://github-readme-stats.vercel.app/api/top-langs?username=nezhivar&show_icons=true&locale=en&layout=compact"
     alt="nezhivar"
   />
  
   <img
-    height="100em" 
+    height="160em" 
     src="https://github-readme-stats.vercel.app/api?username=nezhivar&show_icons=true&locale=en&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"
     alt="nezhivar"
   />
