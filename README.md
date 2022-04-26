@@ -142,7 +142,7 @@
   <img src="/github-metrics.svg" align="right" />
  
   <img
-    height="150em" 
+    height="160em" 
     src="https://github-readme-stats.vercel.app/api/top-langs?username=nezhivar&show_icons=true&locale=en&layout=compact"
     alt="nezhivar"
   />
