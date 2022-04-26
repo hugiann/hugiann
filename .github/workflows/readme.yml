@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{ cron: "0 * * * *" }]
+  schedule: [{ cron: "0 1 * * *" }]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: { branches: ["master", "main"] }
@@ -23,7 +23,7 @@ jobs:
           # Options
           user: nezhivar
           template: classic
-          base: metadata
+          base: activity, community, repositories
           config_timezone: UTC
           plugin_achievements: yes
           plugin_achievements_display: detailed
@@ -35,9 +35,3 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_limit: 2
-          plugin_stackoverflow_lines: 4
-          plugin_stackoverflow_lines_snippet: 2
-          plugin_stackoverflow_sections: answers-top, questions-recent
-          plugin_stackoverflow_user: 18584757
