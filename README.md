@@ -1,5 +1,8 @@
-<h1 align="center">Hey, I'm Nezhivar! 👋</h1>
-<h3 align="center">Exploring the world and questioning everything</h3>
+<h3 align="center">Hey, I'm Nezhivar! 👋</h1>
+<!-- <h3 align="center">Exploring the world and questioning everything</h3> -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=5000&color=2196F3&center=true&vCenter=true&width=440&height=45&lines=True+Outlaw;Pursuing+Pure+Focus;Questioning+Everything;Following+My+Passions;Exploring+The+World">
+</p>
 
 > "Nobody ever figures out what life is all about, and it doesn't matter.
 > Explore the world. Nearly everything is really interesting if you go into it
@@ -134,23 +137,19 @@
 
 <br />
 
-## Github Stats
-
-<p>
+## Activity
+<p> 
+  <img src="/github-metrics.svg" align="right" />
+ 
   <img
-    height="180em" 
-    align="left"
-    src="https://github-readme-stats.vercel.app/api?username=nezhivar&show_icons=true&locale=en&theme=tokyonight&hide_border=true&hide_rank=true&count_private=true&include_all_commits=true"
-    alt="nezhivar"
-  />
-   <img
-    height="180em" 
-    align="center"
+    height="160em" 
     src="https://github-readme-stats.vercel.app/api/top-langs?username=nezhivar&show_icons=true&locale=en&layout=compact"
     alt="nezhivar"
   />
+ 
+  <img
+    height="100em" 
+    src="https://github-readme-stats.vercel.app/api?username=nezhivar&show_icons=true&locale=en&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"
+    alt="nezhivar"
+  />
 </p>
-
-### Activity
-
-![Metrics](/github-metrics.svg)
