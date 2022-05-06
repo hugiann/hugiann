@@ -9,10 +9,6 @@
 > deeply enough.” 
 > 
 > ― Richard Feynman
-
-- 🌱 &nbsp;I’m currently learning Flutter, Go
-- 💬 &nbsp;Ask me about anything related to Javascript/Typescript/React
-- 👨‍💻 &nbsp;Read more about my thoughts, reflections, or recommendations at [nezhivar.com](https://www.nezhivar.com)
  
 <h3 align="left">Connect with me:</h3>
 <p align="left">
