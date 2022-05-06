@@ -1,4 +1,4 @@
-<h3 align="center">Hey, I'm Nezhivar! 👋</h1>
+<h3 align="center">Hi, I'm Nezhivar! 👋</h1>
 <!-- <h3 align="center">Exploring the world and questioning everything</h3> -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=5000&color=2196F3&center=true&vCenter=true&width=440&height=45&lines=True+Outlaw;Pursuing+Pure+Focus;Questioning+Everything;Following+My+Passions;Exploring+The+World">
