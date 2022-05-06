@@ -153,20 +153,10 @@
 
 <br />
 
-## Github Stats
+## Stats
 <p> 
   <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=nezhivar&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="192px"/></a>
   <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nezhivar&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook" height="192px"/></a>
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 </p>
-
-## Activity
-<!-- https://github.com/jamesgeorge007/github-activity-readme -->
-<!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](https://github.com/nezhivar/nezhivar/pull/1) in [nezhivar/nezhivar](https://github.com/nezhivar/nezhivar)
-2. 🎉 Merged PR [#44](https://github.com/nezhivar/nezhOS/pull/44) in [nezhivar/nezhOS](https://github.com/nezhivar/nezhOS)
-3. 🎉 Merged PR [#43](https://github.com/nezhivar/nezhOS/pull/43) in [nezhivar/nezhOS](https://github.com/nezhivar/nezhOS)
-4. 🎉 Merged PR [#42](https://github.com/nezhivar/nezhOS/pull/42) in [nezhivar/nezhOS](https://github.com/nezhivar/nezhOS)
-5. 🎉 Merged PR [#41](https://github.com/nezhivar/nezhOS/pull/41) in [nezhivar/nezhOS](https://github.com/nezhivar/nezhOS)
-<!--END_SECTION:activity-->
