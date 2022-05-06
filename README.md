@@ -1,7 +1,7 @@
 <h3 align="center">Hi, I'm Nezhivar! 👋</h1>
 <!-- <h3 align="center">Exploring the world and questioning everything</h3> -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=5000&color=2196F3&center=true&vCenter=true&width=440&height=45&lines=True+Outlaw;Pursuing+Pure+Focus;Questioning+Everything;Following+My+Passions;Exploring+The+World">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=5000&color=70a5fd&center=true&vCenter=true&width=440&height=45&lines=True+Outlaw;Pursuing+Pure+Focus;Questioning+Everything;Following+My+Passions;Exploring+The+World">
 </p>
 
 > "Nobody ever figures out what life is all about, and it doesn't matter.
@@ -146,8 +146,8 @@
 
 ## Github Stats
 <p> 
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=nezhivar&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&include_all_commits=true" height="192px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nezhivar&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=nezhivar&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nezhivar&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook" height="192px"/></a>
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 </p>
