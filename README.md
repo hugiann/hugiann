@@ -10,15 +10,6 @@
 > 
 > ― Richard Feynman
  
-<br />
-
-<a href="https://github.com/nezhivar/nezhOS">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhos&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
-</a>
-<a href="https://github.com/nezhivar/nezhivar">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhivar&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
-</a>
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://dev.to/nezhivar" target="blank">
@@ -51,6 +42,15 @@
     />
   </a>
 </p>
+
+<h3 align="left">Open Source Projects</h3>
+
+<a href="https://github.com/nezhivar/nezhOS">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhos&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
+</a>
+<a href="https://github.com/nezhivar/nezhivar">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhivar&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
+</a>
 
 <br />
 
