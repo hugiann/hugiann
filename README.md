@@ -151,16 +151,8 @@
     src="/github-metrics.svg" 
     align="right" 
   />
- 
-  <img
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=nezhivar&show_icons=true&locale=en&layout=compact"
-    alt="nezhivar"
-  />
- 
-  <img
-    height="160em" 
-    src="https://github-readme-stats.vercel.app/api?username=nezhivar&show_icons=true&locale=en&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"
-    alt="nezhivar"
-  />
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=nezhivar&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&include_all_commits=true" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nezhivar&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook" height="192px"/></a>
+  <br/>
+  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 </p>
