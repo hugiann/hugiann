@@ -49,7 +49,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhos&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
 </a>
 <a href="https://github.com/nezhivar/userstyles">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhivar&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=userstyles&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
 </a>
 
 <br />
