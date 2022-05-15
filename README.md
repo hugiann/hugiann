@@ -15,9 +15,9 @@
   <a href="https://dev.to/nezhivar" target="blank">
     <img 
          align="center" 
-         src="https://cdn.iconscout.com/icon/free/png-256/dev-dot-to-3626951-3029359.png" 
+         src="https://friconix.com/png/fi-swluxx-dev-to.png" 
          alt="nezhivar" 
-         height="70" 
+         height="50" 
          width="50" 
      />
   </a>
