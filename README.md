@@ -41,6 +41,16 @@
       width="50" 
     />
   </a>
+  &nbsp;&nbsp;
+  <a href="https://www.codewars.com/users/nezhivar" target="blank">
+    <img 
+      align="center" 
+      src="https://docs.codewars.com/logo.svg" 
+      alt="nezhivar" 
+      height="50" 
+      width="50" 
+    />
+  </a>
 </p>
 
 <h3 align="left">Open Source Projects</h3>
