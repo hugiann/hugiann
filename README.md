@@ -56,7 +56,7 @@
 <h3 align="left">Open Source Projects</h3>
 
 <a href="https://github.com/nezhivar/nezhOS">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhos&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhOS&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
 </a>
 <a href="https://github.com/nezhivar/userstyles">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=userstyles&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
