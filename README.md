@@ -12,16 +12,6 @@
  
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://dev.to/nezhivar" target="blank">
-    <img 
-         align="center" 
-         src="https://friconix.com/png/fi-swluxx-dev-to.png" 
-         alt="nezhivar" 
-         height="50" 
-         width="50" 
-     />
-  </a>
-  &nbsp;&nbsp;
   <a href="https://stackoverflow.com/users/18584757/nezhivar" target="blank">
     <img 
       align="center" 
