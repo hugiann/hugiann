@@ -46,10 +46,10 @@
 <h3 align="left">Open Source Projects</h3>
 
 <a href="https://github.com/nezhivar/nezhOS">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=nezhOS&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
+  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=nezhivar&repo=nezhOS&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
 </a>
 <a href="https://github.com/nezhivar/userstyles">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nezhivar&repo=userstyles&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
+  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=nezhivar&repo=userstyles&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
 </a>
 
 <br />
@@ -153,8 +153,8 @@
 
 <h3 align="left">Stats</h3>
 <p> 
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=nezhivar&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="192px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nezhivar&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Github Stats" src="https://github-readme-stats-sigma-five.vercel.app/api/?username=nezhivar&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Nezhivar's Top Languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=nezhivar&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook" height="192px"/></a>
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 </p>
