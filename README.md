@@ -19,16 +19,6 @@
      />
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.leetcode.com/nezhivar" target="blank">
-    <img 
-      align="center" 
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" 
-      alt="nezhivar" 
-      height="50" 
-      width="50" 
-    />
-  </a>
-  &nbsp;&nbsp;
   <a href="https://www.codewars.com/users/nezhivar" target="blank">
     <img 
       align="center" 
