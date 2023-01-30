@@ -1,5 +1,5 @@
 <h3 align="center">Hi, I'm Nezhivar! 👋</h1>
-<h3 align="center">Exploring the world and questioning everything</h3>
+<h3 align="center">Explore the world and question everything</h3>
 
 > "Nobody ever figures out what life is all about, and it doesn't matter.
 > Explore the world. Nearly everything is really interesting if you go into it
