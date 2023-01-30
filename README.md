@@ -1,8 +1,5 @@
 <h3 align="center">Hi, I'm Nezhivar! 👋</h1>
-<!-- <h3 align="center">Exploring the world and questioning everything</h3> -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=5000&color=70a5fd&center=true&vCenter=true&width=440&height=45&lines=Pure+Focus;Questioning+Everything;Craft with a Hammer;Exploring+The+World">
-</p>
+<h3 align="center">Exploring the world and questioning everything</h3>
 
 > "Nobody ever figures out what life is all about, and it doesn't matter.
 > Explore the world. Nearly everything is really interesting if you go into it
