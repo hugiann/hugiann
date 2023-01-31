@@ -145,3 +145,6 @@
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 </p>
+
+<h3>Avatar</h3>
+<p>The avatar was generated using <a href="https://boringavatars.com/">Boring Avatars</a> </p>
