@@ -1,4 +1,3 @@
-<h3 align="center">Hi! 👋</h1>
 <h3 align="center">Explore the world and question everything</h3>
 
 > "Nobody ever figures out what life is all about, and it doesn't matter.
