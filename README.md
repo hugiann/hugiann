@@ -11,9 +11,6 @@
 <a href="https://github.com/hugivar/hugiOS">
   <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=hugivar&repo=hugiOS&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
 </a>
-<a href="https://github.com/hugivar/tali">
-  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=hugivar&repo=tali&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
-</a>
 <a href="https://github.com/hugivar/obsidian-spacial">
   <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=hugivar&repo=obsidian-spacial&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats" />
 </a>
